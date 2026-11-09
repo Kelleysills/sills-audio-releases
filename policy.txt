@@ -1,6 +1,6 @@
 SILLS-POLICY 1
 {
-  "seq": 3,
+  "seq": 4,
   "note": "Sills Audio licence policy - edit this file and raise seq; your Hub signs it with the master key and publishes it to GitHub on its next check. The phone app can change it too.",
   "ledger": {
     "enabled": true,
@@ -16,6 +16,19 @@ SILLS-POLICY 1
     "displayNumbers": {
       "3": 1,
       "1": 2
+    },
+    "protected": {
+      "note": "Admins can't revoke, restore or edit these keys (only the owner's masters can).",
+      "licensees": [
+        "Kelley Sills",
+        "Aaron Waldschmidt"
+      ],
+      "serials": [
+        1001,
+        1004,
+        1005,
+        1006
+      ]
     }
   },
   "activation": {
@@ -30,4 +43,4 @@ SILLS-POLICY 1
     }
   }
 }
-sig c815a3010cee9dc41fec808f879d34cf217202a19eb0316e56517e92cd0ac426d7e005d034500df09d9ee06eb906d949c3351b9fcfa87a8dbbf9cfc9e9fe2605
+sig b9186c1e60281bb91972ef74fc89d635d68510bd38df06f1dfa28b7d47b16b1980d4e8022b457ea52b05a827fb79d90592f3b01d06df85b569eb817fee51230f
