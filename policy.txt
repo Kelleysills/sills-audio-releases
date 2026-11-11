@@ -1,6 +1,6 @@
 SILLS-POLICY 1
 {
-  "seq": 5,
+  "seq": 6,
   "note": "Sills Audio licence policy - edit this file and raise seq; your Hub signs it with the master key and publishes it to GitHub on its next check. The phone app can change it too.",
   "ledger": {
     "enabled": true,
@@ -10,7 +10,8 @@ SILLS-POLICY 1
   },
   "admins": {
     "hidden": [
-      2
+      2,
+      5
     ],
     "phoneIdBase": 2048,
     "displayNumbers": {
@@ -49,4 +50,4 @@ SILLS-POLICY 1
     }
   }
 }
-sig 379e4692d4a7bd9198ac165c7791cba81c0ea66151a20d9bfd5fbdd5168221f93732ba51a3b7334ba7ccc9bc858d42b46d47a7a787ac51df3f8f648a04483109
+sig 4751286486e7e22385a5f0c4a23f6681f448f5c704f0ebf253b7c83b61c8c0621f41ace855826f6a01e31ead9a640abb030ba9032a9b86f67b29eaf3d6101b01
